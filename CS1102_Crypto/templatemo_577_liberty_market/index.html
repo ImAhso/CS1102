@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -20,7 +20,24 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-
+    
+    <div>
+        <h2>Confirmation of visitors' identity</h2>
+        <button onclick="identitycheck() ">Click here to confirm</button>
+        <p id=""demo"></p>
+        <script>
+        function identitycheck() {
+            var txt;
+            if (confirm("Are you related person(e.g.: students, lecturer, teaching assistants, tutor) of CS1102?")) {
+            alert("Welcome to checkout our webpage!");
+            } else {
+            alert("You should ask for related person's permission to check the content!");
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+    </script>  
+    </div>
+                                                     
   </head>
 
 <body>
@@ -60,8 +77,9 @@
           <div class="header-text">
             <h6> CS1102 Project (2022-2023 Semester A)</h6>
             <h2>Our experience in developing our own cryptocurrency</h2>
-            <p>Project Group for Lab1_Tue_1600 1 </p>
-            <p>Quoc-Duy Trinh 40142973 </br> Tang Ka Wan Kimberly 55821315 </br> Nadia Kierzenkowska 40140330 </br> So Kai Wa Jason 56625375</p>
+            <p>Project Group for Lab7_Tue_1100 2 </p>
+            <p>Quoc-Duy Trinh 40142973 Workload percentage: 100%</br> Tang Ka Wan Kimberly 55821315 Workload percentage: 100%</br> 
+               Nadia Kierzenkowska 40140330 Workload percentage: 100%</br> So Kai Wa Jason 56625375 Workload percentage: 100%</p>
               <div class="main-button">
                 <a href="details.html" target="_blank">Watch Our Video</a>
             </div>
