@@ -53,18 +53,49 @@
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
+<div>
+    <h2>Confirmation of visitors' identity</h2>
+    <button onclick="identitycheck() ">Click here to confirm</button>
+    <p id=""demo"></p>
+    <script>
+    function identitycheck() {
+        var txt;
+        if (confirm("Are you related person(e.g.: students, lecturer, teaching assistants, tutor) of CS1102?")) {
+        alert("Welcome to checkout our webpage!");
+        } else {
+        alert("You should ask for related person's permission to check the content!");
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>  
+</div>
+
   <div class="main-banner">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
-            <h6> CS1102 Project (2022-2023 Semester A)</h6>
+            <h4>CS1102 Project (2022-2023 Semester A)</h4>
+            <p>Group Name: Project Group Lab7_Tue_1100 2</p>
+            <p>Group member: <br>
+            Quoc-Duy Trinh SID: 40142973 Workload percentage: 100% <br>
+            Tang Ka Wan Kimberly SID: 55821315 Workload percentage: 100% <br>
+            Nadia Kierzenkowska SID: 40140330 Workload percentage: 100% <br>
+            So Kai Wa Jason SID: 56625375 Workload percentage: 100% </p>
+            
+            <p>Project topic:</p>
             <h2>Our experience in developing our own cryptocurrency</h2>
-            <p>Project Group for Lab1_Tue_1600 1 </p>
-            <p>Quoc-Duy Trinh 40142973 </br> Tang Ka Wan Kimberly 55821315 </br> Nadia Kierzenkowska 40140330 </br> So Kai Wa Jason 56625375</p>
+            <p>In this project, we are asked to develop our own cryptocurrency for free. Our group has chosen the Ethereum Testnet as the platform. </p>
+            
+            <div class="buttons">
+                <div class=""border-button">
+                <a href="https://ethereum.org/en/developers/docs/networks/">What is Ethereum Testnet? </a>
+                </div>
               <div class="main-button">
-                <a href="details.html" target="_blank">Watch Our Video</a>
+                <a href="https://youtu.be/4WNZZe95CRI" target="_blank">Watch Our Videos</a>
+              </div>
             </div>
+                                                                      
           </div>
         </div>
         <div class="col-lg-5 offset-lg-1">
@@ -180,8 +211,52 @@
         </div>
       </div>
     </div>
+    <div>
+        <h2>Techniques we used to make this webpage</h2>
+            <h3>HTML</h3>
+                <ul> 
+                    <li>Basic structure of creating a webpage (title, header, body)</li>
+                    <li>Hyperlinking different webpage</li>
+                    <li>Creating different divisions during coding</li>
+                    <li>Typing words in with different importance (h1-6 etc.)</li>
+                    <li>Listing out information</li>
+                </ul>
+            <h3>CSS</h3>
+                <ul>
+                    <li>Putting styles inline, </li>
+                </ul> 
+            <h3>Java Script</h3>
+                <ul>
+                    <li>if...else judgement</li>
+                    <li>Pop-up</li>
+                    <li></li>
+                </ul>
+    </div>
   </div>
 
+
+    
+    <style> 
+    .Referencelist {
+        width: 80em;
+        border: 1px solid #333;
+        box-shadow: 8px 8px 5px #444;
+        padding: 8px 12px;
+        background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+    } </style>
+<div class="Referencelist">
+  <p>Reference list:</p>
+       <ol type="1">
+            <li><a href="https://www.bitbond.com/resources/create-token-in-5-minutes-using-token-tool/" target="_blank">Create Your Own Token in 5 minutes - BitBond</a></li>
+            <li><a href="https://www.fooish.com/html/" target="_blank">HTML 語法教學 HyperText Markup Language 超文件標示語言 - HTML 語法教學</a></li>
+            <li><a href="https://medium.com/@business.wmacintosh/how-to-create-a-cryptocurrency-token-for-free-in-under-10-minutes-e8a05d7e31dd" target="_blank">How to create a cryptocurrency token for free in under 10 minutes </a></li>
+            <li><a href="https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/" target="_blank">What Are ERC-20 Tokens on the Ethereum Network? </a></li>
+            <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial</a></li>
+            <li><a href="https://metamask.io/" target="_blank">The crypto wallet for Defi, Web3 Dapps and NFTs | MetaMask </a></li>
+            <li><a href="https://www.fooish.com/javascript/" target="_blank">JavaScript 語言 (JavaScript Programming Language)</a></li>
+       </ol>
+</div>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
